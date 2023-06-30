@@ -11,5 +11,18 @@ audios per speaker for validation as GMM does not require it. LS and LS-Sub cont
 audios per speaker for training, respectively. LS and LS-Sub contain the same 10 audios per 
 speaker for validation and 20 audios per speaker for testing. 
 
+The table below shows the number of files per peaker used in Training, Validation and Testing:
+|  Method  |  AM  | AM-Sub |  LS  | LS-Sub |
+|   ---    |  --- |   ---  |  --- |  ---   |
+| Training |  70  |   30   |  70  |   30   |
+|Validation|  10  |   10   |  10  |   10   |
+| Testing  |  20  |   20   |  20  |   20   |
+
+And, the table below shows the layout of the eight experiments performed:
+|  Method  |  AM  | AM-Sub |  LS  | LS-Sub |
+|   ---    |  --- |   ---  |  --- |  ---   |
+|   GMM    | EXP 1|  EXP 2 | EXP 3| EXP 4  |
+|   CNN    | EXP 5|  EXP 6 | EXP 7| EXP 8  |
+
 
 
