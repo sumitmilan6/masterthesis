@@ -2,7 +2,7 @@
 
 The analysis compares the performance of two different approaches for speaker identification:
 CNN and GMM, which are evaluated on two datasets and their respective subsets, with short and
-long utterances. AudioMNIST is referred as AM and consists of short utterances from 60 
+long utterances. AudioMNIST is referred as AM (NEW_AudioMnist_SUBSET) and consists of short utterances from 60 
 speakers, with 100 audios from each speaker, where as Librispeech is referred as LS and 
 consists of long utterances from 81 speakers, with 100 audios from each speaker for the 
 experiments. AM and AM-Sub contain 70 and 30 audios per speaker for training, respectively. 
